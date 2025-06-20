@@ -14,4 +14,6 @@ class GITPLUGINTEST_API UTestUnrealEdEngine : public UUnrealEdEngine
 {
 	GENERATED_BODY()
 	
+	virtual void Init(IEngineLoop* InEngineLoop) override;
+	
 };
